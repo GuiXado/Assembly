@@ -1,11 +1,30 @@
-# Assembly
-Trabalho final de Assembly Mips
+# Trabalho Final - Assembly MIPS
 
-TrabalhoFinalF1.0.asm:
-  Fazer um algoritmo que receba um número (1 < número <= 50000 e, caso não seja, deve ser novamente solicitado) e demonstre o primeiro número primo após a ele.
+Este repositório contém três algoritmos desenvolvidos em Assembly MIPS como parte do trabalho final da disciplina.
 
-Fibonacci.asm:
-  Criar um algoritmo que leia (n) (onde n deve ser um número natural maior que 2 e menor que 20, caso contrário, deve ser solicitado), imprima a multiplicação dos 2 últimos termos gerados, em cada iteração, da série de fibonacci e mostre apenas os resultados de valores ímpares , fazendo o incremento da série até chegar a (n).
+---
 
-Soma dos ímpares multiplicados por dois.asm:
-  Entrar com o número de termos da série (n), (n > 0 e, caso não seja, deve ser novamente solicitado),e imprimir o valor de H, sendo: H = 1*2+3*2+5*2+... Observção: cada multiplicação é um termo. Entender a série é fundamental para a resolução do problema.
+## Projetos
+
+### 1. TrabalhoFinalF1.0.asm  
+- **Descrição:** Recebe um número `n` (onde 1 < n ≤ 50000). Caso o número esteja fora do intervalo, solicita novamente a entrada.  
+- **Objetivo:** Exibir o primeiro número primo após o número fornecido.
+
+---
+
+### 2. Fibonacci.asm  
+- **Descrição:** Lê um número `n` natural tal que 2 < n < 20. Caso o número esteja fora do intervalo, solicita a entrada novamente.  
+- **Objetivo:** Gera a série de Fibonacci até o `n`-ésimo termo, imprime a multiplicação dos dois últimos termos em cada iteração, exibindo somente os resultados que sejam números ímpares.
+
+---
+
+### 3. SomaDosImparesMultiplicadosPorDois.asm  
+- **Descrição:** Recebe o número de termos `n` da série (n > 0). Caso não satisfaça, solicita a entrada novamente.  
+- **Objetivo:** Calcula e imprime o valor da soma H, onde H é a soma dos termos da série: 1*2 + 3*2 + 5*2 + ... (cada termo é um número ímpar multiplicado por 2).
+
+---
+
+## Instruções para execução  
+- Os programas foram escritos em Assembly MIPS e devem ser executados em um simulador compatível (ex: MARS, QtSpim).  
+- Para cada programa, insira o número conforme solicitado, respeitando os limites indicados.  
+- Caso a entrada esteja incorreta, o programa solicitará nova entrada até que um valor válido seja informado.
