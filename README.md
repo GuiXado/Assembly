@@ -28,3 +28,12 @@ Este repositório contém três algoritmos desenvolvidos em Assembly MIPS como p
 - Os programas foram escritos em Assembly MIPS e devem ser executados em um simulador compatível (ex: MARS, QtSpim).  
 - Para cada programa, insira o número conforme solicitado, respeitando os limites indicados.  
 - Caso a entrada esteja incorreta, o programa solicitará nova entrada até que um valor válido seja informado.
+
+---
+
+## Possíveis Melhorias
+
+- **Otimização do cálculo de raiz no algoritmo de busca de primos (TrabalhoFinalF1.0.asm):**  
+  Atualmente, o programa recalcula a raiz aproximada a cada novo número testado.  
+  Embora funcione corretamente, isso torna o processo mais lento para números maiores.  
+  Uma futura melhoria seria reaproveitar o valor anterior da raiz ou implementar um método mais eficiente de verificação de primos.
